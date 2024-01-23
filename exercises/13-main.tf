@@ -5,7 +5,7 @@
  Storage" modules in the public Terraform Registry.
 **** **** **** **** **** **** **** **** **** **** **** ****/
 
-resource "tfe_registry_module" "STORAGE_MODULE" {
+resource "tfe_registry_module" "azure-backup-storage" {
   vcs_repo {
     display_identifier = "${var.github_owner}/${var.module_repo}"
     identifier         = "${var.github_owner}/${var.module_repo}"

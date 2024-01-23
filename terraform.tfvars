@@ -13,3 +13,5 @@ tfc_workspace = "hashicat-azure"
 
 prefix   = "jxb"
 location = "eastus2"
+
+module_repo = "terraform-azurerm-azure-backup"

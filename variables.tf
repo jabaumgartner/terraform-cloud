@@ -99,3 +99,8 @@ variable "github_repo" {
 variable "github_token" {
   type = string
 }
+
+variable "module_repo" {
+  type    = string
+  default = "terraform-azurerm-azure-backup"
+}
